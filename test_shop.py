@@ -43,7 +43,7 @@ class TestProducts:
         try:
             product.buy(quantity)
         except ValueError:
-            assert 'Продукта не хватает'
+            'Продукта не хватает'
 
 
 class TestCart:
